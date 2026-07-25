@@ -5,3 +5,25 @@
     object-fit:contain;
     display:block;
 }
+.header{
+    background:#f4f0e7;
+    padding:10px 0;
+    border-bottom:1px solid #ddd;
+}
+
+.container.nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    gap:28px;
+}
