@@ -13,17 +13,30 @@
 </head>
 <body>
 <header class="header">
-    <div class="container header-container">
+    <div class="container nav">
 
-       <a class="logo" href="#home" aria-label="Mission Ready Supply Transport">
-   <img
-    src="logo.jpg"
-    alt="Mission Ready Supply Transport"
-    class="site-logo">
-</a>
+        <a class="logo" href="#home" aria-label="Mission Ready Supply Transport">
+            <img src="logo.jpg"
+                 alt="Mission Ready Supply Transport"
+                 class="site-logo">
+        </a>
 
-        <nav>
-            ...
+        <button class="menu"
+                aria-expanded="false"
+                aria-controls="navlinks">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav id="navlinks">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#area">Service Area</a>
+            <a href="#quote">Quote</a>
+            <a class="nav-call" href="tel:+17197225212">
+                Call Now
+            </a>
         </nav>
 
     </div>
