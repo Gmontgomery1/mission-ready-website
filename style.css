@@ -1,5 +1,4 @@
-:root{--green:#26351f;--deep:#151e14;--olive:#4b5f3a;--tan:#c6b27d;--cream:#f4f0e7;--white:#fff;--ink:#171a15;--muted:#686d62;--border:rgba(23,26,21,.14);--shadow:0 24px 60px rgba(18,25,15,.16)}*{b[...]
-.site-logo{
+:root{--green:#26351f;--deep:#151e14;--olive:#4b5f3a;--tan:#c6b27d;--cream:#f4f0e7;--white:#fff;--ink:#171a15;--muted:#686d62;--border:rgba(23,26,21,.14);--shadow:0 24px 60px rgba(18,25,15,.16)}*{box-sizing:border-box;margin:0;padding:0}body{font-family:Inter,sans-serif;color:#171a15;line-height:1.6;background:#f4f0e7}h1,h2,h3{font-family:Oswald,sans-serif}.site-logo{
     width:70px;
     height:70px;
     object-fit:contain;
