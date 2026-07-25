@@ -8,3 +8,19 @@ Delivery location: ${d.get("dropoff")}
 
 Delivery details:
 ${d.get("details")||"No additional details provided"}`);document.getElementById("formStatus").textContent="Opening your email app with the quote request...";location.href=`mailto:montgomeryg@missionreadysupplytransport.com?subject=${subject}&body=${body}`});
+const menuButton = document.querySelector(".menu");
+const navigation = document.querySelector("#navlinks");
+
+if (menuButton && navigation) {
+    menuButton.addEventListener("click", () => {
+        const isOpen = navigation.classList.toggle("open");
+        menuButton.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    navigation.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+            navigation.classList.remove("open");
+            menuButton.setAttribute("aria-expanded", "false");
+        });
+    });
+}
