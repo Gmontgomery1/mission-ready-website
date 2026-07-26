@@ -31,8 +31,8 @@ a { color: inherit; }
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(244, 240, 231, 0.97);
-  border-bottom: 1px solid var(--border);
+  background: rgba(14, 22, 15, 0.98);
+  border-bottom: 1px solid rgba(198, 178, 125, 0.45);
   backdrop-filter: blur(10px);
 }
 .header .nav {
@@ -69,6 +69,7 @@ a { color: inherit; }
   gap: 24px;
 }
 #navlinks a {
+  color: var(--white);
   text-decoration: none;
   font-size: 14px;
   font-weight: 700;
@@ -93,7 +94,12 @@ a { color: inherit; }
   background: transparent;
   cursor: pointer;
 }
-.menu span { display: block; height: 2px; margin: 5px 0; background: var(--ink); }
+.menu span {
+  display: block;
+  height: 2px;
+  margin: 5px 0;
+  background: var(--tan);
+}
 
 /* Typography */
 .eyebrow {
