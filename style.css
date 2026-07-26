@@ -36,7 +36,7 @@ a { color: inherit; }
   backdrop-filter: blur(10px);
 }
 .header .nav {
-  min-height: 76px;
+  min-height: 96px;
   display: flex;
   align-items: center;
   gap: 28px;
@@ -229,9 +229,9 @@ footer { padding: 54px 0 24px; color: rgba(255,255,255,.74); background: #0e160f
     gap: 0;
     margin: 0;
     padding: 12px 20px 18px;
-    background: var(--cream);
-    border-bottom: 1px solid var(--border);
-    box-shadow: 0 20px 30px rgba(18,25,15,.12);
+    background: var(--deep);
+border-bottom: 1px solid rgba(198, 178, 125, 0.45);
+box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
   }
   #navlinks.open { display: flex; }
   #navlinks a { padding: 14px 10px; }
