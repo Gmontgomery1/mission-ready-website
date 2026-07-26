@@ -49,12 +49,15 @@ a { color: inherit; }
   text-decoration: none;
 }
 .site-logo {
-  width: 56px;
-  height: 56px;
-  object-fit: cover;
-  border-radius: 50%;
   display: block;
-  box-shadow: 0 4px 16px rgba(18, 25, 15, 0.18);
+  width: 250px;
+  max-width: 100%;
+  height: 82px;
+  object-fit: contain;
+  object-position: left center;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 4px 8px;
 }
 .brand-text { display: grid; line-height: 1.05; text-transform: uppercase; }
 .brand-text strong { font-family: Oswald, sans-serif; font-size: 18px; letter-spacing: 0.08em; }
@@ -236,7 +239,10 @@ footer { padding: 54px 0 24px; color: rgba(255,255,255,.74); background: #0e160f
 
 @media (max-width: 600px) {
   .header .nav { min-height: 66px; }
-  .site-logo { width: 48px; height: 48px; }
+  .site-logo {
+    width: 185px;
+    height: 62px;
+}
   .hero { padding: 58px 0; }
   .section { padding: 64px 0; }
   h1 { font-size: clamp(44px, 15vw, 66px); }
